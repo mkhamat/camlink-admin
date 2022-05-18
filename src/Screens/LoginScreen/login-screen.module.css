@@ -1,0 +1,26 @@
+.login_box {
+  display: inline-block;
+  background-color: var(--black2);
+  border-radius: 35px;
+  padding: 30px;
+  text-align: center;
+}
+
+.logo {
+  margin: 80px 0;
+}
+
+.login_box p {
+  font-size: 18px;
+  color: var(--grey);
+  padding: 15px 0;
+}
+
+.login_box a {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--grey);
+  font-size: 20px;
+  margin-top: 15px;
+}

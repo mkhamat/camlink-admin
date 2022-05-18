@@ -1,0 +1,36 @@
+.button {
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.full_w {
+  width: 100%;
+}
+
+.button:focus {
+  outline: none;
+  background-color: var(--pink);
+}
+
+.primary {
+  background-color: var(--pink2);
+  color: var(--grey3);
+}
+
+.primary:hover{
+  background-color: var(--pink);
+}
+
+.secondary {
+  background-color: var(--black4);
+  color: var(--grey3)
+}
+
+.secondary:hover {
+  background-color: var(--black2);
+}

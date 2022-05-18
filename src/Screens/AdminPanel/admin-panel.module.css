@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.manager {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: var(--grey2);
+  font-size: 18px;
+}
+
+.value {
+  font-weight: 500;
+  color: var(--grey);
+  font-size: 20px;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown span {
+  text-transform: uppercase;
+  color: var(--grey);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 15px;
+}
